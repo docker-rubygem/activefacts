@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.3.0
+ENV VERSION=1.5.0
 
 RUN gem install activefacts --version ${VERSION} --no-format-exec
 
